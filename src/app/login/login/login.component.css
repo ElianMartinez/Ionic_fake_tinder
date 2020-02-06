@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 100%;
+    min-height: 100vh;
+  
+    display: grid;
+    grid-template-columns: auto 27px;
+    grid-template-rows: 50px 35% auto;
+    grid-template-areas:
+      "notch notch"
+      "img bar-right"
+      "auto bar-right";
+  }
+  

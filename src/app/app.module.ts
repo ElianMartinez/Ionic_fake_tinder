@@ -8,9 +8,16 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { importType } from '@angular/compiler/src/output/output_ast';
+
+//Component
+import { LoginComponent } from './login/login/login.component';
+import { NotchComponent } from './login/notch/notch.component';
+import { BarRightComponent} from './login/bar-right/bar-right.component';
+
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent,LoginComponent,NotchComponent,BarRightComponent],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [

@@ -1,0 +1,18 @@
+/*----- begin bar-right component ------*/
+.bar-right {
+    grid-area: bar-right;
+    width: 27px;
+    margin: 0;
+    height: 90%;
+    display: grid;
+    border-radius: 161px 0px 0px 161px;
+  
+    background: linear-gradient(
+        5.33deg,
+        rgba(244, 145, 195, 0.3) 9.71%,
+        rgba(255, 255, 255, 0) 99.9%
+      ),
+      #ff6666;
+  }
+  
+  /*----- end bar-right component ------*/

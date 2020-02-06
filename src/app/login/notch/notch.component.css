@@ -1,0 +1,24 @@
+/*----- begin notch component ------*/
+.notch {
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: notch;
+    width: 200px;
+    height: 50px;
+    color: white;
+    transition: all 0.3s ease;
+    font-size: 30px;
+    font-family: "Pacifico", cursive;
+    background: linear-gradient(
+        5.33deg,
+        rgba(244, 145, 195, 0.3) 9.71%,
+        rgba(255, 255, 255, 0) 99.9%
+      ),
+      #ff6666;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 50px 50px;
+  }
+  
+  /*----- end notch component ------*/
